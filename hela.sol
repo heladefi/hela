@@ -180,19 +180,19 @@ contract Hela is ReentrancyGuard {
     address public owner;
 
     uint256 fee = 1e15;
-    address public feeAddress = 0x8be81eb4f2180ddc9dd3F44DdE07BE23525DBBAe;
+    address public feeAddress;
  
-    address public usdt = 0xEDda29De6B3f43f9A5e0a30e0E74991AD826F7A6;
-    address public token = 0x01770698A56D90740105484E917cC8376EfC76DE;
+    address public usdt;
+    address public token;
 
     address public poolAddress;
     address public tokenPool;
 
-    address public allocatedAddress = 0x3695BFc998aD71c311Be501c1B0680eA8fec916C;
+    address public allocatedAddress;
 
-    address public erc721Address = 0xeDF82B2E4FC71d6F76DB0a2e21E52E2bf5387c3e;
+    address public erc721Address;
 
-    address public inviteAddress = 0xD595154a867BbAb225836033A890aF286431DD0E;
+    address public inviteAddress;
 
     address[5] public poolList;
 
